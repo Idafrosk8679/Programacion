@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+var nombre1 = prompt(`Cual es el nombre del corredor?`);
+var marca1 = Number(prompt(`Cual es su marca`));
+var nombre2 = prompt(`Cual es el nombre del corredor?`);
+var marca2 = Number(prompt(`Cual es su marca`));
+var nombre3 = prompt(`Cual es el nombre del corredor?`);
+var marca3 = Number(prompt(`Cual es su marca`));
+var corredor1 = (`$[nombre1] $[marca1]`);
+var corredor2 = (`$[nombre2] $[marca2]`);
+var corredor3 = (`$[nombre3] $[marca3]`);
+
+    </script>
+
+<script type="text/javascript">
+
+if (marca1 > marca2 > marca3) {
+  console.log(1, º$(corredor1), 2, º$(corredor2), 3, º$(corredor3));
+} else {
+  if (marca1 > marca2 < marca3) {
+    console.log(`1º`, $(corredor1), `2º`, $(corredor3) `3º`, $(corredor2));
+  } else {
+    if (marca1 < marca2 > marca3) {
+      console.log(`1º`, $(corredor2), `2º`, $(corredor3) `3º`, $(corredor1));
+    } else {
+      (marca1 < marca2 < marca3);
+      console.log(`1º`, $(corredor3), `2º`, $(corredor2) `3º`, $(corredor1));
+    }
+  }
+}
+</script>
+
+  </body>
+</html>
